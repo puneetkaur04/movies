@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+#title{
+  color: aliceblue;
+  text-align: center;
+  text-transform:uppercase;
+}
+.sm{
+  margin-bottom: 40px;
+  margin-left: 80%;
+  margin-top: 13px;
+}
+
+body{
+  background-color: black;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.movieList{
+  display: grid;
+  padding: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  align-content: center;
+  margin-left: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#moviesPic{
+  height: 500px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+p{
+  color: white;
+  text-align: center;
+}
+
+#info{
+  padding: 20px;
+}
